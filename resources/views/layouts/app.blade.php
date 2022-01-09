@@ -69,7 +69,7 @@
               <li class="active"><a class="nav-link" href="/"><i class="far fa-square"></i> <span>Dashboard</span></a></li>
               @if (Auth::user()->role_id == '1')
               <li class="nav-item dropdown">
-                <a href="/" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Master</span></a>
+                <a href="/" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Database</span></a>
                 <ul class="dropdown-menu">
                   <li><a class="nav-link" href="{{ route('provinsi.index') }}">Provinsi</a></li>
                   <li><a class="nav-link" href="{{ route('kecamatan.index') }}">Kecamatan</a></li>
